@@ -1,0 +1,477 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    background: #0f0f0f;
+}
+element.style{
+    height: 792px;
+}
+
+header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(0,0,0,.8),rgba(0,0,62,.4)),no-repeat top center fixed;
+    background-size: cover;
+    background-size: cover !important;
+    -webkit-background-size: cover!important;
+    text-align: center;
+    overflow: hidden;
+}
+header:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#nav-wrap{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(51,51,51,.4);
+    
+
+}
+   
+#nav-wrap>a.mobile-btn {
+    display: none;
+}
+#nav-wrap a, #nav-wrap li, #nav-wrap ul {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+}
+
+ul#nav li {
+
+    display: inline-block;
+}
+ul#nav li.current a {
+    color: #f06000;
+}
+ul#nav li a {
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    
+    color: #fff;
+    
+}
+header .banner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+header .banner-text h1 {
+    
+    letter-spacing: -1px;
+    margin: 0 auto 12px auto;
+    color: #11abb0;
+ 
+}
+header .banner-text h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #a8a8a8;
+    margin: 0 auto;
+    width: 70%;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+}
+header .banner-text h3 span{
+    color:yellow;
+}
+header .banner-text.hr {
+    width: 62%;
+    margin: 18px auto 24px auto;
+    border-width: 2px 0 0;
+
+
+    border-color:yellow
+}
+header .social {
+    margin: 24px 0;
+    padding: 0;
+    font-size: 33px;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 80%);
+    
+}
+header .social li {
+    display: inline-block;
+    margin: 0 32px;
+
+    padding: 0;
+}
+header .social li a {
+    color: rgba(255,255,255,.8);
+}
+.fab {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+p {
+    margin: 0 0 30px 0;
+}
+header .scrolldown a {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    margin-left: -29px;
+    color: #fff;
+    display: inline;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+}
+#about {
+    background: #2b2b2b;
+    padding-top: 96px;
+    padding-bottom: 140px;
+    overflow: hidden;
+}
+.row{
+    
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+#about .profile-pic {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    border-radius: 25%;
+    border: 5px solid #11abb0;
+}
+#about .col {
+    padding-right: 5%;
+}
+
+#about h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color:yellow;
+    margin-bottom: 12px;
+}
+#about p {
+    
+    color: red
+}
+.row .row {
+    width: auto;
+    max-width: none;
+    margin: 0 -20px;
+}
+#about h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    margin-bottom: 12px;
+}
+#about p {
+    line-height: 30px;
+    color:silver
+        
+}
+#about a, #about a:visited {
+    color:blue
+}
+#resume {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+.education{
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid white;
+}
+.row {
+    width: 96%;
+    
+    margin: 0 auto;
+}
+#resume .header-col {
+    padding-top: 9px;
+}
+#resume h1 {
+    font-family:sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+#resume h1 span {
+    border-bottom: 3px solid #11abb0;
+    padding-bottom: 6px;
+}
+#resume .main-col {
+    padding-right: 10%;
+}
+[class*=column]+[class*=column]:last-child {
+    float: right;
+}
+.row .nine {
+    width: 75%;
+}
+.columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+.row .row {
+    width: auto;
+    max-width: none;
+    margin: 0 -20px;
+}
+.row .twelve {
+    width: 100%;
+}
+#resume .info {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgba(0,0,0,.8);
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+#resume .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#resume .date {
+    font: 15px/24px opensans-regular,sans-serif;
+    margin-top: 6px;
+}
+p {
+    margin: 0 0 30px 0;
+}
+#resume h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#resume .info {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #6e7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+#resume .header-col {
+    padding-top: 9px;
+}
+#resume h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+section .skills {
+    font-size: 6.2rem;
+}
+
+#portfolio {
+    background:#ebeeee;
+    padding-top: 90px;
+    padding-bottom: 150px;
+
+}
+#portfolio h1 {
+    font: 15px/24px opensans-semibold,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color:#0f0f0f;
+}
+.work-item {
+    margin: 0 0 4em 0;
+    width: 100%;
+    display: flex;
+}
+#testimonials .text-container {
+    padding-top: 96px;
+    padding-bottom: 66px;
+}
+.slides li {
+    margin: 0;
+}
+#testimonials blockquote {
+    margin: 0 0 30px 0;
+    padding-left: 0;
+    position: relative;
+    text-shadow: 0 1px 3px #000;
+}
+#testimonials blockquote p {
+    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    font-size: 24px;
+    line-height: 48px;
+    color: #fff;
+}
+#testimonials {
+    background-color: #000;
+    
+    background-attachment: fixed;
+    position: relative;
+    min-height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+#testimonials .text-container {
+    padding-top: 96px;
+    padding-bottom: 66px;
+}
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.slides{
+    margin: 0;
+}
+.slides li {
+    margin: 0;
+    padding: 0;
+}
+#testimonials blockquote {
+    margin: 0 0 30px 0;
+    padding-left: 0;
+    position: relative;
+    text-shadow: 0 1px 3px #000;
+}
+#testimonials blockquote p{
+
+        font-family: librebaskerville-italic,serif;
+        padding: 0;
+        font-size: 24px;
+        line-height: 48px;
+        color: #fff;
+    }
+    #testimonials blockquote cite {
+        display: block;
+        font-size: 12px;
+        font-style: normal;
+        line-height: 18px;
+        color: silver;
+    }
+    #contact {
+        background: #191919;
+        padding-top: 96px;
+        padding-bottom: 102px;
+        color: #636363;
+    }
+    #contact .section-head {
+        margin-bottom: 42px;
+    }
+    #contact p.lead{
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 3%;
+    }
+    .row .eight {
+        width: 66.66667%;
+    }
+    #contact lable {
+        font: 15px/24px opensans-bold,sans-serif;
+        margin: 12px 0;
+        color: yellow;
+        display: inline-block;
+        
+        width: 26%;
+    }
+    #contact span.required {
+        color: #11abb0;
+        font-size: 13px;
+    }
+    #contact input, #contact select, #contact textarea {
+        padding: 18px 20px;
+        color: #eee;
+        background: #373233;
+        margin-bottom: 42px;
+        border: 0;
+        outline: 0;
+        font-size: 15px;
+        line-height: 24px;
+        width: 65%;
+    }
+    #contact button.submit {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #fff;
+        background: #0d0d0d;
+        border: none;
+        cursor: pointer;
+        height: auto;
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 26%;
+    }
+    #image-loader {
+        display: none;
+        position: relative;
+        left: 18px;
+        top: 17px;
+    }
+    #contact h4 {
+        font: 16px/24px opensans-bold,sans-serif;
+        color: #ebeeee;
+        margin-bottom: 6px;
+    }
+    footer {
+        padding-top: 48px;
+        margin-bottom: 48px;
+        color: #303030;
+        font-size: 14px;
+        text-align: center;
+        position: relative;
+    }
+    footer .copyright {
+        margin: 0;
+        padding: 0;
+    }
+    footer .copyright li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        line-height: 24px;
+    }
+    #go-top {
+        position: absolute;
+        top: -24px;
+        left: 50%;
+        margin-left: -30px;
+    }
+    #go-top a{
+        display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #525252;
+    color: white;
+    font-size: 21px;
+    line-height: 60px;
+    border-radius: 100%;
+    }    
+
+
